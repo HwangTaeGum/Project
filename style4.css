@@ -1,18 +1,15 @@
-@charset "utf-8";
-
 body{
     width: 100%;
     height: 100%;
 }
 
-.Participants{
+.Participants3{
     float: right;
     background-color: darkkhaki;
-    width: 45vw;
-    height: 98vh;
+    width: 30vw;
+    height: 97vh;
     text-align: center;
-    margin-right: 1%;
-   
+    padding-right: 2%;
 }
 
 
@@ -77,28 +74,32 @@ ul{
     font-size: x-large;
 }
 
-
-
-
-
-
-
-
-
-.Participants2{
+.Participants4{
     float: left;
     background-color: beige;
-    width: 40vw;
-    height: 90vh;
+    width: 60vw;
+    height: 70vh;
     text-align: center;
     border-radius: 40px 40px 40px 40px;
-    margin-left: 200px;
-    margin-top:50px;
+    margin-left: 50px;
+    margin-top:30px;
     
 }
 
 
-
+.name1{
+    float: left;
+    margin-left: 4%;
+}
+.qr{
+    float: right;
+    background-color: gray;
+    width: 130px;
+    height: 130px;
+    margin-right: 5%;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+}
 
 .round{
     background-color:lavenderblush;
@@ -130,7 +131,7 @@ ul{
     display:inline-block;
 }
 
-.Exit{
+.start{
     margin-top:40px;
     border-radius: 20px 20px 20px 20px;
     width: 500px;
@@ -150,10 +151,3 @@ ul{
     color: black;
     background-color: skyblue;
 }
-
-
-
-
-
-
-
