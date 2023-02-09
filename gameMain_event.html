@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meata charset="utf-8">
+    <title>모의 주식</title>
+    <link rel="stylesheet" type="text/css" href="style5.css">
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+      <script type="text/javascript">
+        google.charts.load('current', {'packages':['corechart']});
+        google.charts.setOnLoadCallback(drawChart);
+  
+        function drawChart() {
+          var data = google.visualization.arrayToDataTable([
+          ['year', '히히 나는 바보다'],
+            ['1000',  20000],
+            ['2000',  15000],
+            ['3000',  10000],
+            ['4000',  5000]
+          ]);
+  
+          var options = {
+            title: '모의 주식',
+            curveType: 'function',
+            legend: { position: 'bottom' }
+          };
+  
+          var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+  
+          chart.draw(data, options);
+        }
+      </script>
+</head>
+
+<body>
+    <section class="section1">
+        <article class="article1">
+            <table class="table1">
+                <tr>
+                    <td> 
+                        A IT기업 테크 기업과의 계약 불발 소식
+                        <button class="button1"><img class="img1" src="button.png" alt="button"></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> 
+                        A IT기업 테크 기업과의 계약 불발 소식
+                        <button class="button1"><img class="img1" src="button.png" alt="button"></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> 
+                        A IT기업 테크 기업과의 계약 불발 소식
+                        <button class="button1"><img class="img1" src="button.png" alt="button"></button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td> 
+                        A IT기업 테크 기업과의 계약 불발 소식
+                        <button class="button1"><img class="img1" src="button.png" alt="button"></button>
+                    </td>
+                </tr>
+            </table>
+        </article>
+
+        <article class="article2">
+            <table class="table_money" border="1">
+                <tr>
+                    <th class="money">예수금</th>
+                    <th class="won">3,113,312,320</th>
+                </tr>
+            </table>
+
+            <table class="table_per" border="1">
+                <tr>
+                    <th class="per">71%</th>
+                </tr>
+            </table>
+
+            
+            <table class="table2" border="1">
+                <tr>
+                    <th>종목</th>
+                    <th>평균 금액</th>
+                    <th>현재 금액</th>
+                    <th>보유</th>
+                    <th>수익률</th>
+                </tr>
+                <tr>
+                    <td>A IT</td>
+                    <td>10,000</td>
+                    <td>20,000</td>
+                    <td>10</td>
+                    <td>200%</td>
+                </tr>
+
+                <tr>
+                    <td>D 엔터테이먼트</td>
+                    <td>8,000</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+            </table>
+            <article class="timer_article">
+                <div class="timer">
+                    5:00
+                </div>
+            </article>
+
+            <article class="sell_article">
+                <div class="sell">
+                    <button type="button"><img class="up" src="up.png" alt="up"></button>
+                    0
+                    <button type="button"><img class="down" src="down.png" alt="down"></button>
+                    <button type="button" class="medo">매도</button>
+                </div>
+                
+            </article>
+        </article>
+        
+
+
+    </section>
+    <div class="event_button">
+        <button type="button"><img class="event" src="up.png"></button>
+    </div>
+    <section class="section2">
+        <article class="article3">
+            <div id="curve_chart" style="width: 937px; height: 485px"></div>
+        </article>
+
+        <article class="article4">
+            <table class="table4" border="1">
+                <tr>
+                    <th>종목</th>
+                    <th>전 라운드</th>
+                    <th>현 라운드</th>
+                    <th>등락</th>
+                </tr>
+                <tr>
+                    <td>A IT</td>
+                    <td>10,000</td>
+                    <td>20,000</td>
+                    <td>200%</td>
+                </tr>
+
+                <tr>
+                    <td>D 엔터테이먼트</td>
+                    <td>8,000</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+
+                <tr>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                    <td>Table Body</td>
+                </tr>
+            </table>
+            </table>
+            <article class="round_article">
+                <div class="round">
+                    1R
+                </div>
+            </article>
+           
+            <article class="purchase_article">
+                <div class="purchase">
+                    <button type="button"><img class="up" src="up.png" alt="up"></button>
+                    0
+                    <button type="button"><img class="down" src="down.png" alt="down"></button>
+                    <button type="button" class="medo">매도</button>
+                </div>
+        </article>
+    
+    </section>
+
+   
+</body>
+</html>
