@@ -4,7 +4,8 @@
     <meata charset="utf-8">
     <title>모의 주식</title>
     <link rel="stylesheet" type="text/css" href="style5.css">
-
+    
+    <!--그래프-->
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
       <script type="text/javascript">
         google.charts.load('current', {'packages':['corechart']});
@@ -12,11 +13,9 @@
   
         function drawChart() {
           var data = google.visualization.arrayToDataTable([
-          ['year', '히히 나는 바보다'],
-            ['1000',  20000],
-            ['2000',  15000],
-            ['3000',  10000],
-            ['4000',  5000]
+          ['None','바보','아아'],
+            ['수익률', 0, 0]
+            
           ]);
   
           var options = {
@@ -30,6 +29,7 @@
           chart.draw(data, options);
         }
       </script>
+
 </head>
 
 <body>

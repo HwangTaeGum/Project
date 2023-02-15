@@ -1,48 +1,53 @@
-body{
-    width:100vw;
-    height:100vh;
-}
+
 
 .section1{
-    float:left;
+
     width: 50vw;
-    height: 100vh;
-}
-
-.article1{
-    background-color:cornflowerblue;
-    width:50vw;
-    height:50vh;
-    
-
-}
-
-.article2{
-    background-color:darkseagreen;
-    width:50vw;
-    height:50vh;
-    
+    height: 80vh;
+    position: relative;
 
 }
 
 .section2{
-    float:right;
-    width:50vw;
-    height:100vh;
-    margin:auto;
-}
+    width: 50vw;
+    height: 80vh;
+    position: relative;
 
-.article3{
-    background-color: darkseagreen;
+}
+.article1{
+ 
+
     width:50vw;
     height:50vh;
- 
+    position: relative;
+
+}
+
+.article2{
+
+
+    width:50vw;
+    height:50vh;
+    position: relative;
+
+}
+
+
+.article3{
+
+
+    width:50vw;
+    height:50vh;
+    position: relative;
+
 }
 
 .article4{
-    background-color: cornflowerblue;
+
+
     width: 50vw;
     height:50vh;
+    position: absolute;
 
 }
 
@@ -128,14 +133,13 @@ td{
     background-color: blueviolet;
     border-radius: 0px 10px 0px 0px;
     width: 70px;
-    margin-top: 7%;
     font-size: large;
     
 }
 
 .sell_article{
-    margin-left: 39%;
-    margin-top:1.5%;
+    margin-left: 37%;
+    margin-top: 5%;
     
 }
 .sell{
@@ -178,14 +182,14 @@ td{
     background-color: blueviolet;
     border-radius: 10px 0px 0px 0px;
     width: 70px;
-    margin-top:10.7%;
+    margin-top:12.7%;
     font-size: large;
     
 }
 
 .purchase_article{
-    margin-left: 45%;
-    margin-top: 4%;
+    margin-left: 42%;
+    margin-top: 8%;
     
 }
 
@@ -207,6 +211,13 @@ td{
 }
 
 .event{
-    width:50px;
-    height: 30px;
+    position:absolute;
+    top: 938px;
+    left:915px;
 }
+
+.timer_article2{
+    float:left;
+    background-color: blueviolet;
+}
+
